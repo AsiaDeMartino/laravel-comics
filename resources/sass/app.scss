@@ -9,6 +9,12 @@
     font-family: 'Dosis', sans-serif;
 }
 
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 a{
     text-decoration: none;
     color: currentColor;
