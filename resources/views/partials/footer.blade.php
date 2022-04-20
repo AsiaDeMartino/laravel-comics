@@ -44,7 +44,30 @@
                 "DC Power Visa",
             ],
         ],
-    ]
+    ];
+
+    $elencoSocial = [
+            [
+                "src" => asset('../img/footer-facebook.png'),
+                "href" => "/"
+            ],
+            [
+                "src" => asset("../img/footer-twitter.png"),
+                "href" => "/"
+            ],
+            [
+                "src" => asset("../img/footer-youtube.png"),
+                "href" => "/"
+            ],
+            [
+                "src" => asset("../img/footer-pinterest.png"),
+                "href" => "/"
+            ],
+            [
+                "src" => asset("../img/footer-periscope.png"),
+                "href" => "/"
+            ]
+          ]
 @endphp
 
 
@@ -62,6 +85,21 @@
         </div>
         <div class="logo">
             <img src="{{ asset('../img/dc-logo-bg.png') }}" alt="">
+        </div>
+      </div>
+      <div class="footer">
+        <div>
+            <button type="button" class="bottone">sign up now!</button>
+        </div>
+        <div class="social">
+            <h2>follow us</h2>
+            <ul>
+                @foreach ($elencoSocial as $item)
+                <li><a href={{ $item["href"] }}></a>
+                    <img src={{ $item["src"] }} alt="">
+                </li>
+                @endforeach
+            </ul>
         </div>
       </div>
     </div>

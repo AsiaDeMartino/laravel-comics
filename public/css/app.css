@@ -73,6 +73,40 @@
   color: white;
 }
 
+.footer {
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 200px;
+  background-color: rgb(36, 36, 36);
+  flex-shrink: 0;
+}
+.footer .bottone {
+  height: 50px;
+  width: 150px;
+  border: 3px solid rgb(13, 106, 247);
+  text-transform: uppercase;
+  font-size: 16px;
+  color: white;
+  background-color: transparent;
+}
+.footer img {
+  height: 30px;
+  display: block;
+}
+.footer .social {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: rgb(13, 106, 247);
+  text-transform: uppercase;
+}
+.footer ul {
+  list-style: none;
+  display: contents;
+}
+
 * {
   margin: 0;
   padding: 0;
