@@ -1,3 +1,6 @@
+@extends("layout.home");
+
+@section('main')
 <div class="main">
     <div class="banner"></div>
     <button id="current">current series</button>
@@ -13,3 +16,4 @@
     </div>
     <button>load more</button>
   </div>
+@endsection

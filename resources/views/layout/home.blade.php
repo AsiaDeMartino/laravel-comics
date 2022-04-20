@@ -17,7 +17,7 @@
     </header>
 
     <main>
-        @include('partials.main')
+        @yield('main')
     </main>
 
     @include('partials.navbar')
