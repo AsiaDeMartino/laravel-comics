@@ -107,6 +107,33 @@
   display: contents;
 }
 
+.navbar {
+  height: 150px;
+  background-color: rgb(13, 106, 247);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 200px;
+  flex-shrink: 0;
+}
+.navbar img {
+  height: 50px;
+}
+.navbar ul {
+  display: contents;
+  list-style: none;
+}
+.navbar li {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.navbar span {
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
 * {
   margin: 0;
   padding: 0;

@@ -20,6 +20,8 @@
 
     </main>
 
+    @include('partials.navbar')
+
     <footer>
         @include('partials.footer')
     </footer>
