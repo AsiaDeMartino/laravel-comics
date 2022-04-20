@@ -134,6 +134,67 @@
   text-transform: uppercase;
 }
 
+.main {
+  color: white;
+  background-color: rgb(21, 21, 21);
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+}
+.main .card_wrapper {
+  padding: 50px 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.main button {
+  height: 40px;
+  width: 180px;
+  background-color: rgb(13, 106, 247);
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 40px;
+}
+.main .banner {
+  height: 400px;
+  width: 100%;
+  background: url("../img/jumbotron.jpg");
+}
+.main #current {
+  height: 50px;
+  width: 250px;
+  font-size: 18px;
+  margin: 0;
+  transform: translate(-220%, -50%);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 14.2857142857%;
+  height: 250px;
+}
+.card figure {
+  width: 100%;
+  background-color: blue;
+  aspect-ratio: 1;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.card img {
+  width: 100%;
+}
+.card h3 {
+  padding-top: 10px;
+  color: white;
+  text-transform: uppercase;
+}
+
 * {
   margin: 0;
   padding: 0;
