@@ -1,1 +1,15 @@
-//
+@import "/resources/sass/header.scss";
+@import "/resources/sass/footer.scss";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: currentColor;
+}
