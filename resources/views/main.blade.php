@@ -16,4 +16,7 @@
     </div>
     <button>load more</button>
   </div>
+
+  @include('partials.navbar')
 @endsection
+

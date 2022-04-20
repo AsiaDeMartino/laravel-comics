@@ -13,9 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 Route::get('/', function () {
 
@@ -24,8 +24,9 @@ Route::get('/', function () {
     return view('main', ["comics" => $comics]);
 });
 
-Route::get('/details', function () {
+Route::get('/details/{id}', function ($id) {
     $comics = config("comics");
 
-    return view('details', ["comics" => $comics]);
-});
+    abort_if(!isset($comics[$id]),404);    
+    return view('details', ["comics" => $comics[$id]]);
+})->where('id','[0-9]+');
