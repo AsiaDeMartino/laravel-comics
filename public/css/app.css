@@ -283,6 +283,72 @@
 .mainDetails .content h4 {
   color: rgb(80, 80, 80);
 }
+.mainDetails .content-bottom {
+  width: 100%;
+  background-color: rgb(244, 244, 244);
+  color: rgb(4, 47, 75);
+}
+.mainDetails .content-bottom .container {
+  padding: 50px 200px;
+  display: flex;
+  justify-content: space-between;
+}
+.mainDetails .content-bottom .col-6 {
+  width: 40%;
+}
+.mainDetails .content-bottom .col-6 .talent {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid lightgray;
+  margin-top: 20px;
+  padding-top: 5px;
+}
+.mainDetails .content-bottom .col-6 .talent:last-child {
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 5px;
+}
+.mainDetails .content-bottom .col-6 .talent span {
+  width: 40%;
+}
+.mainDetails .content-bottom .col-6 .talent p {
+  width: 60%;
+}
+.mainDetails .content-bottom .col-6 .talent a {
+  color: rgb(54, 149, 208);
+}
+.mainDetails .content-bottom .navbar-details {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 200px;
+  flex-shrink: 0;
+  border-top: 1px solid gray;
+  filter: opacity(30%);
+}
+.mainDetails .content-bottom .navbar-details img {
+  height: 50px;
+  filter: invert(100%);
+}
+.mainDetails .content-bottom .navbar-details ul {
+  display: contents;
+  list-style: none;
+}
+.mainDetails .content-bottom .navbar-details li {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border-right: 1px solid gray;
+  padding-right: 40px;
+}
+.mainDetails .content-bottom .navbar-details li:first-child {
+  border-left: 1px solid gray;
+}
+.mainDetails .content-bottom .navbar-details span {
+  font-size: 18px;
+  text-transform: uppercase;
+}
 
 * {
   margin: 0;
