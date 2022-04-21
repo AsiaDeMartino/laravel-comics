@@ -150,6 +150,9 @@
   flex-wrap: wrap;
   gap: 15px;
 }
+.main .card_wrapper a {
+  display: contents;
+}
 .main button {
   height: 40px;
   width: 180px;
